@@ -1,3 +1,5 @@
+import Contador from "./Contador";
+
 const Informacion = ({comision}) => {
     return (
         <>
@@ -9,7 +11,7 @@ const Informacion = ({comision}) => {
           usuario. React utiliza un paradigma de programación declarativa, lo
           que significa que los desarrolladores describen cómo debería ser la
           interfaz de usuario y React se encarga de manejar los cambios de
-          manera eficiente.<br/> Comision: {comision}</p>   
+          manera eficiente.<br/> Comision: {comision}</p>
         </>
     );
 };
